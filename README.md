@@ -1,21 +1,31 @@
 ## Typing Test Application proudly made with Python
 
-> A program with which is made with Python, with the interface possible by Tkinter, a default GUI libray in python.
+This is a Python program made with Tkinter, a default GUI library in Python. It is a typing test application that allows users to test their typing speed and accuracy. The program displays a random paragraph and the user must type it out as quickly and accurately as possible. It uses a timer that counts down from 60 seconds, after which the user can see their words per minute (WPM) speed and accuracy.
 
 <div align="center">
-<img src="assets/imgOne.png" alt="broken Img" width="50%">
-</div>
-It uses a timer, which goes from 0 to 60, after the 60 hits you can see your word per mintue speed.
-<div align="center">
-<img src="assets/imgTwo.png" alt="broken Img" width="50%">
-</div>
+  <img src="assets/imgOne.png" alt="Screenshot of Typing Test Application" width="400"/>
+  <img src="assets/imgTwo.png" alt="Screenshot of Typing Test Application Results" width="400"/>
+</div> 
 
-# Running it locally
-<h4>Using python3 for linux</h4>
+## Running it Locally
 
-```
-$ python3 -m venv venv 
-$ python3 source venv/bin/activate
-$ python3 pip install -r requirements.txt
-$ python3 typing_test.py
-```
+To run the Typing Test Application locally, follow these steps:
+
+1. Clone the repository:
+
+git clone https://github.com/yourusername/typing-test-app.git
+
+2. Create and activate a virtual environment:
+
+python3 -m venv venv
+source venv/bin/activate
+
+3. Install the required dependencies:
+
+pip install -r requirements.txt
+
+4. Start the application:
+
+python3 typing_test.py
+
+5. Enjoy testing your typing speed!
